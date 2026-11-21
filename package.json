@@ -10,19 +10,19 @@
     "dev": "webpack --mode development",
     "dev-prepare": "composer install",
     "watch": "webpack --mode development --watch",
-    "update-styles": "git subtree pull --prefix src/styles https://github.com/LBC-Starter-Kits/sass-7-1-pattern.git main --squash"
+    "update-styles": "git subtree pull --prefix src/styles https://github.com/LBCDev-Libs/sass-7-1-pattern.git main --squash"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LBC-Starter-Kits/Joomla-Template-Starter-Kit.git"
+    "url": "git+https://github.com/LBCDev-Libs/Joomla-Template-Starter-Kit.git"
   },
   "keywords": [],
   "author": "Luis Breña Calvo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LBC-Starter-Kits/Joomla-Template-Starter-Kit/issues"
+    "url": "https://github.com/LBCDev-Libs/Joomla-Template-Starter-Kit/issues"
   },
-  "homepage": "https://github.com/LBC-Starter-Kits/Joomla-Template-Starter-Kit#readme",
+  "homepage": "https://github.com/LBCDev-Libs/Joomla-Template-Starter-Kit#readme",
   "dependencies": {
     "lbcdev-navigation-menu": "git+https://$%7BENV.GITHUB_PERSONAL_ACCESS_TOKEN%7D@github.com/Luinux81/web-components.git#lbcdev-navigation-menu"
   },
